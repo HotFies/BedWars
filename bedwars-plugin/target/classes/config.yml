@@ -1,0 +1,50 @@
+Game:
+  WaitTime: 30
+  Whitelist:
+  - /mute
+  - /list
+  SignGlass: false
+  PrivateChat: true
+  KeepLobby: false 
+JoinItems:
+  Compass:
+    Enabled: false
+    Slot: 8
+    Material: COMPASS
+    Data: 0
+    Command: "/cw quickjoin BedWars"
+    Name: "&a&lQuickJoin"
+Reward:
+  Winners:
+  - money give %player% 5
+  Losers:
+  - money give %player% 0
+  Top:
+  - money give %first% 0
+  - money give %second% 0
+  - money give %third% 0
+  - money give %other% 0
+  Kill:
+  - money give %player% 0
+  FinalKill:
+  - money give %player% 0
+  Death:
+  - money give %player% 0
+  BedDestroyed:
+  - money give %player% 0
+BungeeMode:
+  Enabled: false
+  ServerOnGameEnd: Hub
+  StopServerOnEnd: false
+  AutoScale: true
+  KickPlayer: true
+SQLDatabase:
+  Enabled: false
+  MySQL: true 
+  Host: 127.0.0.1
+  Database: database
+  Username: ClashWars
+  Password: '12345'
+  Port: 3306
+  UseSSL: true
+  RefreshInMinutes: 5

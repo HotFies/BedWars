@@ -1,0 +1,22 @@
+name: ClashWars
+version: 1.0
+api-version: 1.14
+main: ro.Aneras.ClashWars.Main
+author: Aneras
+softdepend: [Multiverse-Core, WorldLoader, MultiWorld, PlaceholderAPI, SlimeWorldManager]
+commands:
+  bwparty:
+    description: The main party command
+    aliases:
+      - party
+      - bparty
+  bedwars:
+    description: The main bedwars command
+    aliases:
+      - bw
+      - bedw
+  clashwars:
+    description: The main clashwars command
+    aliases:
+      - cw
+      - clashw
